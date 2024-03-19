@@ -1,0 +1,73 @@
+.highlights {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+input[type="Search"] {
+  background-color: rgb(210, 195, 195);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+input[type="Submit"] {
+  background-color: #f63959;
+  color: #ffff;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+#city,
+#time,
+#condition {
+  display: flex;
+  margin: 0;
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+}
+#city {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#time,
+#condition {
+  font-size: 20px;
+}
+#time {
+  margin-top: 10px;
+}
+#temp-section {
+  display: flex;
+  margin: 0;
+  margin-top: 10px;
+}
+#temperature {
+  font-size: 75px;
+  font-weight: 500;
+}
+#celcius {
+  margin-top: 20px;
+  font-size: 30px;
+}
+#icon {
+  font-size: 45px;
+}
+.temp-wind {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.wind-precipitation {
+  color: #878787;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 20px;
+}
+.weekly-temp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
