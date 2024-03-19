@@ -11,6 +11,8 @@ function App() {
           defaultTemperature={26}
           defaultCondition="Cloudy"
           defaultDate="Tuesday"
+          defaultHumidity="60"
+          defaultWind="5"
         />
       </header>
     </div>

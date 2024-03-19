@@ -89,8 +89,8 @@ export default function Weather(props) {
             <span id="celcius">℃</span>
           </div>
           <div class="wind-precipitation">
-            <div id="precipitation"> Humidity: {weather.humidity}% </div>
-            <div id="wind">Wind: {Math.round(weather.wind)}km/h </div>
+            <div id="precipitation"> Humidity: {props.defaultHumidity}% </div>
+            <div id="wind">Wind: {Math.round(props.defaultWind)}km/h </div>
           </div>
         </div>
       </div>
