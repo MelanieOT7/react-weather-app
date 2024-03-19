@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Footer";
 import Weather from "./Weather";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           defaultHumidity="60"
           defaultWind="5"
         />
+        <Footer />
       </header>
     </div>
   );
